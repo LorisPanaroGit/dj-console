@@ -7079,7 +7079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "295aca16-cf5d-449c-819e-19726614c22d")
-		(property "Reference" "SW1"
+		(property "Reference" "SYNC_SW1"
 			(at 26.67 130.8099 90)
 			(effects
 				(font
@@ -7139,7 +7139,7 @@
 			)
 			(project "dj-console"
 				(path "/cbea8acf-e301-41c4-99fc-3eb7e47427af/a354910e-06bf-4bdc-8f1b-b82fc8536ab6"
-					(reference "SW1")
+					(reference "SYNC_SW1")
 					(unit 1)
 				)
 			)
@@ -13897,7 +13897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf2072f4-43fa-4a0b-846f-462fc463c220")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 427.99 58.42 0)
 			(effects
 				(font
@@ -13953,7 +13953,7 @@
 			)
 			(project "dj-console"
 				(path "/cbea8acf-e301-41c4-99fc-3eb7e47427af/a354910e-06bf-4bdc-8f1b-b82fc8536ab6"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -16038,7 +16038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8dec49d-e95a-4c5f-8c40-900a8a0324c5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0102"
 			(at 427.99 100.33 0)
 			(effects
 				(font
@@ -16094,7 +16094,7 @@
 			)
 			(project "dj-console"
 				(path "/cbea8acf-e301-41c4-99fc-3eb7e47427af/a354910e-06bf-4bdc-8f1b-b82fc8536ab6"
-					(reference "#PWR?")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
