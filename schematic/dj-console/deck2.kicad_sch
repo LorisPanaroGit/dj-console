@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "66a3764d-89bd-4b71-8ffd-7187688bb1b9")
+	(paper "A2")
+	(title_block
+		(title "DJ-console")
+		(rev "0.0")
+		(company "Loris Panaro")
+	)
+	(lib_symbols)
+)

@@ -1,0 +1,145 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "cbea8acf-e301-41c4-99fc-3eb7e47427af")
+	(paper "A4")
+	(title_block
+		(title "DJ-console")
+		(rev "0.0")
+		(company "Loris Panaro")
+	)
+	(lib_symbols)
+	(sheet
+		(at 173.99 135.89)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "99527237-9a33-43a5-861b-4623aef2727d")
+		(property "Sheetname" "mixer"
+			(at 173.99 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mixer.kicad_sch"
+			(at 173.99 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dj-console"
+				(path "/cbea8acf-e301-41c4-99fc-3eb7e47427af"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 180.34)
+		(size 12.7 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e4a73cb-10c5-4c7b-9539-2d172d557ce6")
+		(property "Sheetname" "deck2"
+			(at 139.7 179.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "deck2.kicad_sch"
+			(at 139.7 187.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dj-console"
+				(path "/cbea8acf-e301-41c4-99fc-3eb7e47427af"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 167.64)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a354910e-06bf-4bdc-8f1b-b82fc8536ab6")
+		(property "Sheetname" "deck1"
+			(at 135.89 166.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "deck1.kicad_sch"
+			(at 135.89 172.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dj-console"
+				(path "/cbea8acf-e301-41c4-99fc-3eb7e47427af"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
