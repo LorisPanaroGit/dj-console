@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "cbea8acf-e301-41c4-99fc-3eb7e47427af")
 	(paper "A4")
 	(title_block
@@ -23,11 +23,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "99527237-9a33-43a5-861b-4623aef2727d")
 		(property "Sheetname" "mixer"
 			(at 173.99 135.1784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37,6 +39,8 @@
 		)
 		(property "Sheetfile" "mixer.kicad_sch"
 			(at 173.99 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,11 +69,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "9e4a73cb-10c5-4c7b-9539-2d172d557ce6")
 		(property "Sheetname" "deck2"
 			(at 139.7 179.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -79,6 +85,8 @@
 		)
 		(property "Sheetfile" "deck2.kicad_sch"
 			(at 139.7 187.2746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -107,11 +115,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a354910e-06bf-4bdc-8f1b-b82fc8536ab6")
 		(property "Sheetname" "deck1"
 			(at 135.89 166.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121,6 +131,8 @@
 		)
 		(property "Sheetfile" "deck1.kicad_sch"
 			(at 135.89 172.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
