@@ -11,8 +11,94 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 173.99 135.89)
-		(size 12.7 3.81)
+		(at 203.962 87.376)
+		(size 57.404 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "68131390-74dd-4dda-8a0d-c61482ba394e")
+		(property "Sheetname" "deck2"
+			(at 203.962 86.6644 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "deck1.kicad_sch"
+			(at 203.962 120.9806 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SW1_LED" input
+			(at 203.962 96.52 180)
+			(uuid "dd9616a7-ef6e-45c5-b43a-071854b70607")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SW2_LED" input
+			(at 203.962 101.6 180)
+			(uuid "1288851f-e4ae-4fc6-8450-c61ae232e3b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SW3_LED" input
+			(at 203.962 106.68 180)
+			(uuid "e863f074-97fa-471b-b9f6-a2befe8b2b84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SW4_LED" input
+			(at 203.962 111.76 180)
+			(uuid "d435e1e1-84d2-4ecc-ac0f-9cf158f28c32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "dj-console"
+				(path "/cbea8acf-e301-41c4-99fc-3eb7e47427af"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 74.676)
+		(size 12.7 54.102)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -27,7 +113,7 @@
 		)
 		(uuid "99527237-9a33-43a5-861b-4623aef2727d")
 		(property "Sheetname" "mixer"
-			(at 173.99 135.1784 0)
+			(at 146.05 73.9644 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38,7 +124,7 @@
 			)
 		)
 		(property "Sheetfile" "mixer.kicad_sch"
-			(at 173.99 140.2846 0)
+			(at 146.05 129.3626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57,54 +143,8 @@
 		)
 	)
 	(sheet
-		(at 139.7 180.34)
-		(size 12.7 6.35)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "9e4a73cb-10c5-4c7b-9539-2d172d557ce6")
-		(property "Sheetname" "deck2"
-			(at 139.7 179.6284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "deck2.kicad_sch"
-			(at 139.7 187.2746 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "dj-console"
-				(path "/cbea8acf-e301-41c4-99fc-3eb7e47427af"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 135.89 167.64)
-		(size 12.7 3.81)
+		(at 25.146 86.106)
+		(size 58.42 33.274)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -119,7 +159,7 @@
 		)
 		(uuid "a354910e-06bf-4bdc-8f1b-b82fc8536ab6")
 		(property "Sheetname" "deck1"
-			(at 135.89 166.9284 0)
+			(at 25.146 85.3944 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -130,7 +170,7 @@
 			)
 		)
 		(property "Sheetfile" "deck1.kicad_sch"
-			(at 135.89 172.0346 0)
+			(at 25.146 119.9646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -138,6 +178,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SW1_LED" input
+			(at 83.566 93.98 0)
+			(uuid "9dfdfad0-f73b-4192-89e2-9f4b32d010a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW2_LED" input
+			(at 83.566 99.06 0)
+			(uuid "6fcf0041-876a-4856-a8bf-d03c24fd980b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW3_LED" input
+			(at 83.566 104.14 0)
+			(uuid "bdc90a3c-2bae-4896-a170-b949db231552")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW4_LED" input
+			(at 83.566 109.22 0)
+			(uuid "2e4c4ae0-76b0-4fa4-b8a7-02af739eee7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
