@@ -3083,6 +3083,12 @@
 		(uuid "72b69deb-34a8-4090-a82c-1dc965ef7513")
 	)
 	(junction
+		(at 552.45 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75864b80-9d30-4054-a739-44f1976865fe")
+	)
+	(junction
 		(at 85.09 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3178,6 +3184,12 @@
 		(color 0 0 0 0)
 		(uuid "e27c5ccd-b5f4-47bf-8bab-e9726eb6d212")
 	)
+	(junction
+		(at 543.56 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f18d2596-0052-40f2-ae8d-1ffa072574dd")
+	)
 	(no_connect
 		(at 72.39 382.27)
 		(uuid "0e451354-599c-45ac-ac3b-9b9b79468eaa")
@@ -3197,10 +3209,6 @@
 	(no_connect
 		(at 542.29 248.92)
 		(uuid "3c549e3b-47a8-4b09-88c9-6f57b7666711")
-	)
-	(no_connect
-		(at 525.78 167.64)
-		(uuid "516466ef-f471-4b94-8f61-662e0e18cd69")
 	)
 	(no_connect
 		(at 72.39 133.35)
@@ -3902,6 +3910,16 @@
 	)
 	(wire
 		(pts
+			(xy 552.45 96.52) (xy 556.26 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b317af-42b8-41f3-bd8f-9813abb26185")
+	)
+	(wire
+		(pts
 			(xy 556.26 241.3) (xy 556.26 261.62)
 		)
 		(stroke
@@ -4019,6 +4037,16 @@
 			(type default)
 		)
 		(uuid "76a26166-0c1c-40e2-a72c-1c58b2c092ca")
+	)
+	(wire
+		(pts
+			(xy 552.45 133.35) (xy 552.45 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b7164e-b8ec-4445-87ce-721cb385b94d")
 	)
 	(wire
 		(pts
@@ -4142,7 +4170,7 @@
 	)
 	(wire
 		(pts
-			(xy 543.56 96.52) (xy 561.34 96.52)
+			(xy 533.4 96.52) (xy 543.56 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4179,6 +4207,16 @@
 			(type default)
 		)
 		(uuid "9c563018-e53d-45c7-8494-cfb6bc70f632")
+	)
+	(wire
+		(pts
+			(xy 502.92 133.35) (xy 552.45 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f05e6bb-c557-43f7-952e-1ab4f70bf05d")
 	)
 	(wire
 		(pts
@@ -4382,7 +4420,7 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 177.8) (xy 511.81 177.8)
+			(xy 502.92 177.8) (xy 511.81 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4422,6 +4460,16 @@
 	)
 	(wire
 		(pts
+			(xy 543.56 96.52) (xy 552.45 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41e6477-718f-4853-bacc-705e685e8a06")
+	)
+	(wire
+		(pts
 			(xy 74.93 146.05) (xy 74.93 151.13)
 		)
 		(stroke
@@ -4442,7 +4490,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 132.08) (xy 142.24 132.08)
+			(xy 158.75 132.08) (xy 138.43 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4499,6 +4547,16 @@
 			(type default)
 		)
 		(uuid "ce29a90d-fc44-46f7-ba3a-3c7fc9cf9ba7")
+	)
+	(wire
+		(pts
+			(xy 502.92 177.8) (xy 502.92 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3bd0e2-057a-4504-90ad-c30a3d538286")
 	)
 	(wire
 		(pts
@@ -4960,18 +5018,8 @@
 		)
 		(uuid "d2397ea9-9085-4d9c-b196-be403cda8d64")
 	)
-	(label "HEADPHONES_LED"
-		(at 494.03 177.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dcf084f9-7fd7-44b4-842d-1fd8d3686001")
-	)
 	(label "EQ_FX2_filtered"
-		(at 142.24 132.08 0)
+		(at 138.43 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4979,16 +5027,6 @@
 			(justify left bottom)
 		)
 		(uuid "dfe07385-88a6-49ba-8221-28018e3637b1")
-	)
-	(label "HEADPHONES_LED"
-		(at 561.34 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f8b0ed95-36f0-45b0-b724-de6b27caa286")
 	)
 	(label "EQ_LOW_filtered"
 		(at 101.6 210.82 180)
@@ -5012,7 +5050,7 @@
 	)
 	(hierarchical_label "HEADPHONES_STAT"
 		(shape output)
-		(at 561.34 96.52 0)
+		(at 556.26 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)

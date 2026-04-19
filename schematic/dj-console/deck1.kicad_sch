@@ -3818,42 +3818,6 @@
 		(uuid "f7a17cad-3082-4c91-9887-686e90605a72")
 	)
 	(no_connect
-		(at 474.98 193.04)
-		(uuid "082626d5-e033-42a4-aac6-8a5df78ca41f")
-	)
-	(no_connect
-		(at 349.25 116.84)
-		(uuid "0c6ebd43-8363-4305-8b07-8c6ab1fd34a4")
-	)
-	(no_connect
-		(at 474.98 52.07)
-		(uuid "2c36dd37-4ae3-449f-a9bb-27a63a3edbfe")
-	)
-	(no_connect
-		(at 347.98 52.07)
-		(uuid "3631a24b-8cfd-4e04-9c21-db25c60bbb2f")
-	)
-	(no_connect
-		(at 411.48 193.04)
-		(uuid "369c3a1f-eafb-498b-8457-8e07874ea7b7")
-	)
-	(no_connect
-		(at 349.25 193.04)
-		(uuid "502f0763-c651-4e9f-9ede-9ebe3e8efcb3")
-	)
-	(no_connect
-		(at 474.98 116.84)
-		(uuid "5c6e9d64-d0e9-45b2-8a23-23085cc911b1")
-	)
-	(no_connect
-		(at 412.75 52.07)
-		(uuid "5f49651e-8caf-471f-acd2-fbc066ecd199")
-	)
-	(no_connect
-		(at 353.06 278.13)
-		(uuid "86b886e2-092e-48e6-a0ca-808fd75a7b38")
-	)
-	(no_connect
 		(at 373.38 363.22)
 		(uuid "970dc1ee-dbfe-41f3-aeee-f81d45b52923")
 	)
@@ -3868,22 +3832,6 @@
 	(no_connect
 		(at 140.97 378.46)
 		(uuid "afa96fba-0ff2-4b76-8511-f1057f8f175d")
-	)
-	(no_connect
-		(at 551.18 52.07)
-		(uuid "b42dd5d2-e06f-4a65-85bf-208016948321")
-	)
-	(no_connect
-		(at 551.18 193.04)
-		(uuid "d05ee3ac-3cd8-4b07-b763-976efcee2bd9")
-	)
-	(no_connect
-		(at 551.18 116.84)
-		(uuid "d366744e-a6f9-4e30-922d-70e44b9f42b9")
-	)
-	(no_connect
-		(at 415.29 278.13)
-		(uuid "de1910f0-9ad8-43ad-9093-23199f4519a5")
 	)
 	(wire
 		(pts
@@ -6905,7 +6853,7 @@
 		)
 		(uuid "1a6008d9-39cf-4dce-aa5d-4b02e3d17a20")
 	)
-	(label "SW1_1"
+	(label "SW1"
 		(at 55.88 222.25 180)
 		(effects
 			(font
@@ -11823,7 +11771,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100kOhm"
+		(property "Value" "10kOhm"
 			(at 331.47 359.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22938,7 +22886,7 @@
 	)
 	(symbol
 		(lib_id "GPIO_expander:MCP23017")
-		(at 275.59 167.64 0)
+		(at 279.4 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22949,7 +22897,7 @@
 		(fields_autoplaced yes)
 		(uuid "c682be4a-0dc8-47de-a5f8-2a11ed287dac")
 		(property "Reference" "U8"
-			(at 287.782 154.432 0)
+			(at 291.592 156.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22960,7 +22908,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 276.86 167.6399 0)
+			(at 280.67 170.1799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22972,7 +22920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 167.64 0)
+			(at 279.4 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22983,7 +22931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 167.64 0)
+			(at 279.4 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22994,7 +22942,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 275.59 167.64 0)
+			(at 279.4 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
