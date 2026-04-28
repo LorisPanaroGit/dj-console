@@ -1793,7 +1793,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TO-DO: \nput 2.5V bias on V+ filters\njog wheels on decks\nDACs for audio outputs\nearth for SC protection\n"
+	(text "TO-DO: \njog wheels on decks\nDACs for audio output\naudio interface\ntrimmer for track selection\nearth for SC protection\n"
 		(exclude_from_sim no)
 		(at 128.27 24.384 0)
 		(effects
@@ -1956,7 +1956,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.466 131.064) (xy 63.5 131.064)
+			(xy 45.72 129.54) (xy 63.5 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2096,7 +2096,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 131.064) (xy 63.5 118.364)
+			(xy 63.5 129.54) (xy 63.5 118.364)
 		)
 		(stroke
 			(width 0)
@@ -2376,7 +2376,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 125.984) (xy 102.87 129.54)
+			(xy 102.87 124.46) (xy 102.87 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2506,7 +2506,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.466 125.984) (xy 102.87 125.984)
+			(xy 45.72 124.46) (xy 102.87 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6193,6 +6193,36 @@
 				(justify right)
 			)
 		)
+		(pin "TRACK_LOAD_SW" input
+			(at 79.502 158.75 180)
+			(uuid "9953d35b-bdca-4416-b2ec-11cbc526a09b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_EXP_I2C{I2C}" bidirectional
+			(at 115.57 162.56 270)
+			(uuid "070703d2-f415-4798-a8c3-bc64167d642d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_EXP_ADDR0" input
+			(at 118.11 129.54 90)
+			(uuid "78d6f418-a8d2-40dc-9e06-b4fc3d308c62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "dj-console"
 				(path "/cbea8acf-e301-41c4-99fc-3eb7e47427af"
@@ -6259,6 +6289,26 @@
 				(justify left)
 			)
 		)
+		(pin "TRACK_LOAD_SW" output
+			(at 76.2 67.31 180)
+			(uuid "bed4c718-4624-4a3f-96a0-c98f01416963")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_SPI{SPI}" bidirectional
+			(at 100.33 50.8 0)
+			(uuid "6d229f73-446e-4e82-865c-8d8f788cad49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "dj-console"
 				(path "/cbea8acf-e301-41c4-99fc-3eb7e47427af"
@@ -6268,7 +6318,7 @@
 		)
 	)
 	(sheet
-		(at 22.098 118.364)
+		(at 22.352 116.84)
 		(size 23.368 20.828)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6284,7 +6334,7 @@
 		)
 		(uuid "9a23fad3-6d31-41d9-913a-32ee561559be")
 		(property "Sheetname" "mixer2"
-			(at 22.098 117.6524 0)
+			(at 22.352 116.1284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6295,7 +6345,7 @@
 			)
 		)
 		(property "Sheetfile" "mixer.kicad_sch"
-			(at 22.098 139.7766 0)
+			(at 22.352 138.2526 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6306,7 +6356,7 @@
 			)
 		)
 		(pin "HEADPHONES_STAT" output
-			(at 45.466 125.984 0)
+			(at 45.72 124.46 0)
 			(uuid "dec35b4f-c71c-40f9-9232-439bba04f6a1")
 			(effects
 				(font
@@ -6316,8 +6366,28 @@
 			)
 		)
 		(pin "TEMPO_SLIDER_filtered" input
-			(at 45.466 131.064 0)
+			(at 45.72 129.54 0)
 			(uuid "44459644-5f3c-498e-b244-00a2e0b75fa5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TRACK_LOAD_SW" output
+			(at 45.72 134.366 0)
+			(uuid "96ff48d5-3f05-47cf-a7c6-4b5586a2728d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_SPI{SPI}" bidirectional
+			(at 45.72 120.65 0)
+			(uuid "7d8835ca-f097-4a5c-baec-6ecabbd7c42b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6429,6 +6499,36 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "TRACK_LOAD_SW" input
+			(at 56.896 86.36 0)
+			(uuid "f55aa485-2d79-4e68-8716-71cae579b2b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_EXP_I2C{I2C}" bidirectional
+			(at 34.29 91.44 270)
+			(uuid "d1adbf7b-f42d-4391-83b0-4a946e37790f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_EXP_ADDR0" input
+			(at 22.352 85.09 180)
+			(uuid "be134f03-c67b-4d3b-bae1-6c4c5c6752d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -312,7 +312,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 1,
     "annotation": {
       "method": 0,
       "sort_order": 0
@@ -388,7 +388,18 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "I2C": [
+        "SDA",
+        "SCK"
+      ],
+      "SPI": [
+        "MOSI",
+        "MISO",
+        "CSn",
+        "CLK"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -437,7 +448,7 @@
         "uuid": "cbea8acf-e301-41c4-99fc-3eb7e47427af"
       }
     ],
-    "used_designators": "HEADPHONES_GAIN1-2,HEADPHONES_GAIN101,DECK_GAIN1-2,x2_SW1-2,MASTER_GAIN1-2,MASTER_GAIN101,x1\\-2_SW1-2,STEMS_SW1-2,SHIFT_SW1-2,EQ_FX2_1-4,EQ_FX1_1-2,CROSSFADER_GAIN1-2,CROSSFADER_GAIN101,LOOP_SW1-2,C14-19,C33-110,#PWR40-57,#PWR68-71,#PWR122-139,#PWR150-153,#PWR165-199,#PWR212-256,#PWR259-321,R15-26,R31,R36,R67-78,R83,R88,R105-124,R129-131,TEMPO_SLIDER3-6,D8-13,D34-39,D53-56,U8,U16-30,U33-52,U101-104,EQ_LOW1-2,Q27-28,EQ_MID1-2,EQ_FX1-4,HEADPHOONES_SW1-2,DECK_FADER1-2,HOT_CUE_SW1-2,EQ_HIGH1-5",
+    "used_designators": "EQ_LOW1-2,EQ_FX2_1-2,DECK_GAIN1-2,DECK_FADER1-2,x2_SW1-2,x1\\-2_SW1-2,SW3_1-2,SW4_1-2,#PWR1-286,#PWR310-335,EQ_HIGH1-2,HOT_CUE_SW1-2,TRACK_LOAD_SW1-2,C1-78,C87-92,LOOP_SW1-2,HEADPHONES_SW1-2,U1-36,U41-42,D1-58,PLAY_SW1-2,SHIFT_SW1-2,EQ_FX1_1-2,SW1_1-2,EQ_MID1-2,SW2_1-2,Q1-28,SYNC_SW1-2,STEMS_SW1-2,TEMPO_SLIDER1-2,CUE_SW1-2,R1-128,R132-135",
     "variants": []
   },
   "sheets": [
